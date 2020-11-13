@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), OnClickItemListener {
     override fun OnClickItem(position: Int) {
         val restaurante = restaurantes[position]
 
-        val intent = Intent(this, DetalheItemActivity::class.java)
+        val intent = Intent(this, DetalheRestauranteActivity::class.java)
         intent.putExtra("restaurante", restaurante)
         startActivity(intent)
     }

@@ -16,4 +16,6 @@
     <string name="salada_com_molho_gengibre">Salada com molho Gengibre</string>
     <string name="pratos_principais">Pratos principais</string>
     <string name="imgrest">Imagem Restaurante</string>
+    <string name="prato_nome">Prato nome</string>
+    <string name="prato_descricao">Prato descricao</string>
 </resources>
