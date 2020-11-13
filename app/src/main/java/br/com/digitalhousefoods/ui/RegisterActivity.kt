@@ -1,8 +1,8 @@
-package br.com.digitalhousefoods
+package br.com.digitalhousefoods.ui
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import br.com.digitalhousefoods.R
 import kotlinx.android.synthetic.main.activity_login.btnRegister
 import kotlinx.android.synthetic.main.activity_register.*
 

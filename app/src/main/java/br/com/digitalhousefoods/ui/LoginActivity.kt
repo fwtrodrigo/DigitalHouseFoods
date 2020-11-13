@@ -1,8 +1,9 @@
-package br.com.digitalhousefoods
+package br.com.digitalhousefoods.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import br.com.digitalhousefoods.R
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {

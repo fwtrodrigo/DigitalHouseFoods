@@ -1,10 +1,11 @@
-package br.com.digitalhousefoods
+package br.com.digitalhousefoods.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import br.com.digitalhousefoods.R
 
 class SplashScreenActivity : AppCompatActivity() {
 
