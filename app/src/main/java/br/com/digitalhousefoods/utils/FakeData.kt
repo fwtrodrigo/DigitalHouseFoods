@@ -1,4 +1,4 @@
-package br.com.digitalhousefoods.Utils
+package br.com.digitalhousefoods.utils
 
 import br.com.digitalhousefoods.R
 import br.com.digitalhousefoods.domain.Prato
@@ -12,6 +12,36 @@ class FakeData {
                 "Salada com Molho Gengibre",
                 "Salada Fit com Molho Gengibre",
                 R.drawable.image1,
+            ),
+            Prato(
+                2,
+                "Arroz, Feijao, Bife e Batata Frita",
+                "Aquele tradicional",
+                R.drawable.image3,
+            ),
+            Prato(
+                3,
+                "Pure, Carne de Panela, Sem arroz e sem Feijao",
+                "Só a mistura",
+                R.drawable.image3,
+            ),
+            Prato(
+                4,
+                "Lanchao",
+                "Pra engordar",
+                R.drawable.image4,
+            ),
+            Prato(
+                4,
+                "Suquinho",
+                "Pra Emagrecer",
+                R.drawable.image5,
+            ),
+            Prato(
+                5,
+                "Pokas",
+                "Só comer",
+                R.drawable.image5,
             )
         )
 

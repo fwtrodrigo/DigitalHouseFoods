@@ -7,12 +7,12 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import br.com.digitalhousefoods.R
-import br.com.digitalhousefoods.contract.OnClickRestauranteListener
+import br.com.digitalhousefoods.contract.OnClickItemListener
 import kotlinx.android.synthetic.main.item_restaurante.view.*
 
 class RestauranteAdapter(
     private val restaurantes: ArrayList<Restaurante>,
-    val listener: OnClickRestauranteListener
+    val listener: OnClickItemListener
 ) : RecyclerView.Adapter<RestauranteAdapter.ItemRestaurante>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemRestaurante {
@@ -31,8 +31,6 @@ class RestauranteAdapter(
 
     }
 
-    override fun getItemCount() = restaurantes.size
-
     inner class ItemRestaurante(itemView: View) : RecyclerView.ViewHolder(itemView),
         View.OnClickListener {
         val nome: TextView = itemView.tvRestauranteNome
@@ -47,7 +45,10 @@ class RestauranteAdapter(
         override fun onClick(p0: View?) {
             val position = adapterPosition
             if (position != RecyclerView.NO_POSITION)
-                listener.OnClickRestaurante(position)
+                listener.OnClickItem(position)
         }
     }
+
+    override fun getItemCount() = restaurantes.size
+
 }
